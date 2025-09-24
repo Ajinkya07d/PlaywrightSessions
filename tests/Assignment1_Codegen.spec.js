@@ -16,5 +16,5 @@ test('1 Demo WEb shop Navigation', async ({ page }) => {
 test.only('2 Demo WEb shop Navigation', async ({ page }) => {
 
     await page.goto('https://demowebshop.tricentis.com/login');
-    await page.pause();
+    //await page.pause();
 })
